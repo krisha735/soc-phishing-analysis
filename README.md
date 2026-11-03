@@ -131,7 +131,6 @@ The extraction revealed an unstripped template developer comment left behind by 
 | Tactic | Technique ID | Technique Name | Context / Operational Application |
 | :--- | :--- | :--- | :--- |
 | **Initial Access** | `T1566.002` | Spearphishing Link | Adversary delivered phishing email with malicious hyperlink |
-| **Credential Access** | `T1056.003` | Web Portal Capture | Destination link hosted fake portal to harvest user credentials |
 | **Resource Development**| `T1584.004` | Compromise Infrastructure: Serverless | Abused Google Cloud Run container services to host payload |
 
 ---
@@ -171,9 +170,7 @@ The extraction revealed an unstripped template developer comment left behind by 
 
 ```text
 ├── README.md               # Incident Writeup & Technical Report
-├── sample1.eml             # Raw Phishing Email Sample
-├── docs/                   # Investigative Notes & IOC Lists
-└── evidence/               # Screenshots of Header Analysis & Threat Intel
+├── krisha-soc-phishing-analysis.pdf  # Investigative Notes & IOC Lists with Screenshots of Header Analysis & Threat Intel
 ```
 
 ---
